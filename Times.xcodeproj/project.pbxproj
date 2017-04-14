@@ -13,6 +13,7 @@
 		2E36874B1E9EEB1D005D84E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E36874A1E9EEB1D005D84E7 /* Assets.xcassets */; };
 		2E36874E1E9EEB1D005D84E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E36874C1E9EEB1D005D84E7 /* LaunchScreen.storyboard */; };
 		2E3687591E9EEB1D005D84E7 /* TimesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3687581E9EEB1D005D84E7 /* TimesTests.swift */; };
+		2E3687641E9F8DE4005D84E7 /* TimeObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3687631E9F8DE4005D84E7 /* TimeObj.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2E3687541E9EEB1D005D84E7 /* TimesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E3687581E9EEB1D005D84E7 /* TimesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesTests.swift; sourceTree = "<group>"; };
 		2E36875A1E9EEB1D005D84E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E3687631E9F8DE4005D84E7 /* TimeObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeObj.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				2E36874A1E9EEB1D005D84E7 /* Assets.xcassets */,
 				2E36874C1E9EEB1D005D84E7 /* LaunchScreen.storyboard */,
 				2E36874F1E9EEB1D005D84E7 /* Info.plist */,
+				2E3687631E9F8DE4005D84E7 /* TimeObj.swift */,
 			);
 			path = Times;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E3687641E9F8DE4005D84E7 /* TimeObj.swift in Sources */,
 				2E3687461E9EEB1D005D84E7 /* ViewController.swift in Sources */,
 				2E3687441E9EEB1D005D84E7 /* AppDelegate.swift in Sources */,
 			);
@@ -412,6 +416,7 @@
 				2E36875F1E9EEB1D005D84E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E3687601E9EEB1D005D84E7 /* Build configuration list for PBXNativeTarget "TimesTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				2E3687621E9EEB1D005D84E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
